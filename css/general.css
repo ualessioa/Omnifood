@@ -22,7 +22,7 @@ Paragraph default: 1.6
 
 ---COLORS
 
-- Primary: #e67e22
+- Primary: #e67e22, #51cf66, #94d82d, #ffd43b
 
 - Tints: #fdf2e9, #fae5d3
 
@@ -37,6 +37,7 @@ Paragraph default: 1.6
 --- BORDER RADIUS
 
 - Default: 9
+card: 11
 
 --- WHITESPACE
 
@@ -157,7 +158,7 @@ body {
 }
 
 .grid--3-cols {
-  grid-template-columns: repeat(1fr, 3);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .container {
@@ -165,4 +166,8 @@ body {
   padding: 0 3.2rem !;
 
   margin: 0 auto;
+}
+
+strong {
+  font-weight: 500;
 }
