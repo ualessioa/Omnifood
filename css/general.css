@@ -430,7 +430,7 @@ strong {
     text-align: center;
   }
 
-  .list {
+  .diets-list {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
@@ -472,5 +472,79 @@ strong {
 
   .logo {
     height: 1.8rem;
+  }
+}
+
+/* below 544px*/
+
+@media screen and (max-width: 34em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .logos {
+    flex-wrap: wrap;
+    gap: 1.8rem;
+  }
+
+  .logo {
+    height: 2.4rem;
+  }
+
+  .section-hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+  .hero {
+    padding: 0 3.2rem;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.6rem;
+  }
+
+  .hero-img {
+    width: 80%;
+  }
+
+  .step-image-box:nth-child(2) {
+    grid-row: 1;
+  }
+  .step-image-box:nth-child(6) {
+    grid-row: 5;
+  }
+
+  .step-image-box {
+    transform: translateY(4.8rem);
+  }
+
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+
+  .cta-image-box {
+    height: 30vh;
+    grid-row: 1;
+  }
+
+  .section-meals,
+  .section-how {
+    padding: 4.8rem 0 9.6rem;
   }
 }
