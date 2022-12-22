@@ -54,6 +54,7 @@ card: 11
 html {
   font-size: 62.5%; /* Conversione da 16px a 10px */
   overflow-x: hidden;
+  /* scroll-behavior: smooth; */
 }
 
 * {
